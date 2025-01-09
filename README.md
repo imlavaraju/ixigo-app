@@ -54,9 +54,7 @@
 │   ├── TaskModal.js      # Handles adding and editing tasks
 │   ├── TAskItem.js      # Displays the single items as tasks
 
+```
 
-
-
-
-- **Email**: imnanilavaraju@example.com
-- **GitHub**: [imlavaraju](https://github.com/imlavaraju)
+- **Email** : imnanilavaraju@gmail.com
+- **GitHub** : [imlavaraju](https://github.com/imlavaraju)
