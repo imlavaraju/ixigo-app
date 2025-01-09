@@ -82,18 +82,23 @@ const TaskModal = ({
                         Please fill in all fields correctly.
                     </Text>
                 )}
-
-                <Button
-                    title={task.id ? "Update" : "Add"}
-                    onPress={handleAddTask}
-                    color="#007BFF"
-                />
+<View style={styles.buttonRow}>
+    <View style={styles.buttonWrapper}>
+        <Button
+            title={task.id ? "Update" : "Add"}
+            onPress={handleAddTask}
+            color="#007BFF"
+        />
+    </View>
+    <View style={styles.buttonWrapper}>
+        <Button
+            title="Cancel"
+            onPress={handleCancel}
+            color="#FF3B30"
+        />
+    </View>
+    </View>
                 
-                <Button
-                    title="Cancel"
-                    onPress={handleCancel}
-                    color="#FF3B30"
-                />
             </View>
         </Modal>
     );

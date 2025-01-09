@@ -52,6 +52,13 @@ const styles = StyleSheet.create({
         flexDirection: "row", // Align buttons horizontally
         alignItems: "center", // Center the icons vertically
     },
+    buttonContainer: {
+        flexDirection: 'row', // Align buttons horizontally
+        justifyContent: 'space-between', // Space out buttons evenly
+        marginTop: 10, // Add top margin
+        paddingHorizontal: 20,
+        marginHorizontal:10 ,// Add horizontal padding
+    },
     editButton: {
         borderRadius: 5,
         padding: 5,
@@ -60,6 +67,16 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
     },
+    buttonRow: {
+        flexDirection: 'row', // Arrange buttons horizontally
+        justifyContent: 'space-between', // Space between buttons
+        marginTop: 10, // Add spacing above the buttons
+    },
+    buttonWrapper: {
+        flex: 1, // Allows buttons to grow equally
+        marginRight: 10, // Add margin between buttons
+    },
+
     completeButton: {
        
         borderRadius: 5,
