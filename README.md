@@ -1,50 +1,62 @@
-# Welcome to your Expo app 👋
+# React Native Task Manager App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+- ###  A simple and interactive task management app built with React Native.
+- ### This app allows users to create, view, edit, delete, and manage tasks with deadlines. 
+- ### The app integrates a calendar to visualize tasks by their deadlines.
+- ### This App access your local phone calendar and saves your plans in calendar and shows in that calendar.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **Task Creation**: Add tasks with a title, description, deadline, and status(automatically takes pending).
+ **Locally saves** : Task locally saved in your Phone calendar.
+- **Task Management**: Edit or delete tasks easily.
+- **Calendar Integration**: Visualize tasks on a calendar with marked dates.
+- **Task Status Toggle**: Mark tasks as `Pending` or `Completed`.
+- **Validation**: Ensures tasks have a title and deadline before saving.
+- **Responsive UI**: Designed to work seamlessly on different devices.
 
+## Screenshots
+
+<!-- Add screenshots of your app here -->
+<img src="https://github.com/imlavaraju/ixigo-app/raw/main/utilis/Screenshot%20(18).png"
+ width="100%"> 
+<img src="https://github.com/imlavaraju/ixigo-app/raw/main/utilis/Screenshot%20(19).png"
+ width="100%"> 
+<img src="https://github.com/imlavaraju/ixigo-app/raw/main/utilis/Screenshot%20(20).png"
+ width="100%"> 
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/imlavaraju/ixigo-app
+   cd ixigo-app
+   ```
+
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. Start the application:
    ```bash
-    npx expo start
+   npm run start
    ```
 
-In the output, you'll find options to open the app in a
+4. Scan the QR code with your Expo Go app or run on an emulator.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Folder Structure
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
 ```
+.
+├── components
+│   ├── TaskList.js       # Displays the list of tasks
+│   ├── TaskModal.js      # Handles adding and editing tasks
+│   ├── TAskItem.js      # Displays the single items as tasks
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- **Email**: imnanilavaraju@example.com
+- **GitHub**: [imlavaraju](https://github.com/imlavaraju)
