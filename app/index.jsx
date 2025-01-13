@@ -169,6 +169,18 @@ const App = () => {
     });
     return markedDates;
   };
+  const handleToggleCompletion = (taskId) => {
+    const updatedTasks = tasks.map((task) =>
+        task.id === taskId
+            ? {
+                  ...task,
+                  status: task.status === "Completed" ? "Pending" : "Completed",
+              }
+            : task
+    );
+    setTasks(updatedTasks);
+};
+
 
   return (
     <View style={styles.container}>
@@ -200,6 +212,7 @@ const App = () => {
           const updatedTasks = tasks.filter((t) => t.id !== taskId);
           setTasks(updatedTasks);
         }}
+        handleToggleCompletion={handleToggleCompletion}
       />
 
       {/* Add or Edit Task Button */}
